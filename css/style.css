@@ -130,13 +130,16 @@ img {
  ************************************************/
 @media (max-width: 1139px) {
     .container {
-        width: 768px;
+        max-width:  768px;
+        width: 100%;
+
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .container {
-        width: 730px;
+        max-width: 650px;
+        width: 100%;
     }
 
     p {
@@ -144,9 +147,11 @@ img {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
     .container {
-        width: 100%;
+        max-width: 480px;
+        width: 100%;   
+    
     }
 
     .lessons .col {
