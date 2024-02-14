@@ -131,13 +131,12 @@ img {
 @media (max-width: 1139px) {
     .container {
         width: 768px;
-        ;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .container {
-        width: 480px;
+        width: 550px;
     }
 }
 
