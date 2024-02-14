@@ -136,7 +136,11 @@ img {
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 550px;
+        width: 650px;
+    }
+
+    p {
+        line-height: 26px;
     }
 }
 
@@ -168,5 +172,9 @@ img {
 
     .why-us .row { 
         flex-wrap: wrap;
+    }
+
+    p {
+        line-height: 26px;
     }
 }
