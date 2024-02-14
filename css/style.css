@@ -152,7 +152,22 @@ img {
 
     .lessons .row {
         flex-wrap: wrap;
-        ;
     }
 
+    .steps .col {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .steps .row {
+        flex-wrap: wrap;
+    }
+
+    .why-us .col {
+        width: 100%;
+    }
+
+    .why-us .row { 
+        flex-wrap: wrap;
+    }
 }
